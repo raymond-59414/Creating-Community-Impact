@@ -12,10 +12,68 @@ TABLE OF CONTENTS
 /*-------------------
 1. universal styles
 -------------------*/
+@font-face {
+  font-family:'Monotype Corsiva', serif;
+  src: url('../media/font/MonotypeCorsiva.ttf');
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 
+body{
+  margin: 0 10%;
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1{
+  font-size: 45pt;
+  font-family: 'Monotype Corsiva',serif;
+  text-align: center;
+}
+
+.sub-title{
+  font-size: 15pt;
+  font-weight: 600;
+}
+
+p{
+  font-size: 12pt;
+}
 /*-------------------
 2. nav styles
 -------------------*/
+nav {
+	margin-top:0;
+	width:100%;
+	position:relative;
+}
+
+nav ul {
+	margin: 0;
+	display:flex;
+	justify-content:space-between;
+	padding: 0 40px;
+  background-color: #273985;
+  font-family: helvetica;
+}
+
+nav li {
+	font-size: 20px;
+	list-style-type: none;
+	text-transform: capitalize;
+}
+
+nav li a {
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+  padding: 20px 0;
+	width: 120px;
+}
+
+nav li a:hover {
+}
 
 /*-------------------
 3. index

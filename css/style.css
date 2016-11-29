@@ -42,38 +42,7 @@ p{
 /*-------------------
 2. nav styles
 -------------------*/
-nav {
-	margin-top:0;
-	width:100%;
-	position:relative;
-}
 
-nav ul {
-	margin: 0;
-	display:flex;
-	justify-content:space-between;
-	padding: 0 40px;
-  background-color: #273985;
-  font-family: helvetica;
-}
-
-nav li {
-	font-size: 20px;
-	list-style-type: none;
-	text-transform: capitalize;
-}
-
-nav li a {
-	color: #ffffff;
-	text-decoration: none;
-	display: inline-block;
-	text-align: center;
-  padding: 20px 0;
-	width: 120px;
-}
-
-nav li a:hover {
-}
 
 /*-------------------
 3. index

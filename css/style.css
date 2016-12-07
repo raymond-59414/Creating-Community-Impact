@@ -19,7 +19,7 @@ TABLE OF CONTENTS
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 
 body{
-  margin: 0 10%;
+  margin: 0;
   background-color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -39,6 +39,15 @@ h1{
 p{
   font-size: 12pt;
 }
+
+footer p {
+    background-color: #273985;
+    text-align: center;
+    padding: 50px 0px;
+    color: #fff;
+    clear:left;
+}
+
 /*-------------------
 2. nav styles
 -------------------*/
@@ -104,7 +113,14 @@ nav ul li:hover {
 /*-------------------
 5. employment
 -------------------*/
+.content{
+    margin: 100px;
+    margin-top: 0px;
+}
 
+.image_header{
+    width: 100%;
+}
 /*-------------------
 6. disability
 -------------------*/

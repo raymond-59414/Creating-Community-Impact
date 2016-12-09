@@ -136,10 +136,20 @@ nav ul li:hover {
 /*-------------------
 6. disability
 -------------------*/
+.content{
+    margin: 100px;
+    margin-top: 0px;
+}
+
+.image_header{
+    width: 100%;
+}
+
 
 /*-------------------
 7. resources
 -------------------*/
+
 .description{
     font-weight: bold;
 }
@@ -153,4 +163,13 @@ nav ul li:hover {
 
 a:hover {
     color: #273985;
+}
+.content{
+    margin: 100px;
+    margin-top: 0px;
+}
+
+.image_header{
+    width: 100%;
+
 }

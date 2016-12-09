@@ -136,6 +136,15 @@ nav ul li:hover {
 /*-------------------
 6. disability
 -------------------*/
+.content{
+    margin: 100px;
+    margin-top: 0px;
+}
+
+.image_header{
+    width: 100%;
+}
+
 
 /*-------------------
 7. resources

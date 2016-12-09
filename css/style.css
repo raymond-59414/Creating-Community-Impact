@@ -109,6 +109,14 @@ nav ul li:hover {
 /*-------------------
 4. about
 -------------------*/
+.content{
+    margin: 100px;
+    margin-top: 0px;
+}
+
+.image_header{
+    width: 100%;
+}
 
 /*-------------------
 5. employment

@@ -140,3 +140,17 @@ nav ul li:hover {
 /*-------------------
 7. resources
 -------------------*/
+.description{
+    font-weight: bold;
+}
+
+.link{
+    font-weight: normal;
+    color: #000000;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #273985;
+}
